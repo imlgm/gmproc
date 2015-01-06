@@ -46,14 +46,14 @@ td.approvetime span{
 	 top: 2px;
 	 left: 50%;
 	 margin-left: -10px;
-	 background: url(/images/owpgr-bg.png) no-repeat;
+	 background: url(/gmproc/images/owpgr-bg.png) no-repeat;
 	 background-position: left -170px;
 
 }
 
 .owpgr-img-cell div.owpgr-line-l{
 	/*width: 100%;*/
-	background: url(/images/owpgr-bg.png) repeat-x;
+	background: url(/gmproc/images/owpgr-bg.png) repeat-x;
 	background-position: left -59px;
 	left: 0;
 	right: 0;
@@ -65,7 +65,7 @@ td.approvetime span{
 
 .owpgr-img-cell-1st div.owpgr-line-g-l{
 	width: 26px;
-	background: url(/images/owpgr-bg.png) no-repeat;
+	background: url(/gmproc/images/owpgr-bg.png) no-repeat;
 	background-position: left -148px;
 }
 
@@ -75,7 +75,7 @@ td.approvetime span{
 
 .owpgr-img-cell-last div.owpgr-line-g-r{
 	width: 26px;
-	background: url(/images/owpgr-bg.png) no-repeat;
+	background: url(/gmproc/images/owpgr-bg.png) no-repeat;
 	background-position: left -118px;
 	right: 0px;
 }
@@ -95,7 +95,7 @@ td.approvetime span{
 .owpgr-img-cell-last.owpgr-img-cell-st-0 div.owpgr-line-r{
 	left: 50%;
 	right: 26px;
-	background: url(/images/owpgr-bg.png) repeat-x;
+	background: url(/gmproc/images/owpgr-bg.png) repeat-x;
 	background-position: left -89px;
 }
 

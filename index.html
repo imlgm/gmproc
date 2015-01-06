@@ -1,89 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>日常审批</title>
-		<link rel="stylesheet" href="/css/tipsy.css">
-		<link rel="stylesheet" href="/css/reset.css">
-		<link rel="stylesheet" href="/css/ow1417.css">
-		<script type="text/javascript" src="/js/main.js"></script>
-		<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="/js/jquery.tipsy.js"></script>
-		<script type="text/javascript">
-				function mainFunc(argument) {
-					$("body [title]").tipsy({
-						offset: -10
-					});
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Progress</title>
+	<script type="text/javascript" src="/gmproc/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/gmproc/js/owpgr.js"></script>
+	<link rel="stylesheet" href="/gmproc/css/owpgr.css" />
+	<script type="text/javascript">
+	$(function(){
 
-					$(".menu-item").filter(function(){
-						// return !$(this).is(".active");
-						return true;
-					}).mouseover(function(){
-						$(this).addClass("sub-active");
-					}).mouseout(function(){
-						$(this).removeClass("sub-active");
-					});
-				}
-				$(mainFunc);
-			</script>
-		</head>
-		<body>
-			<div class="ow-main">
-					<div class="ow-header">
-					<a href="#" class="ow-header-ico">
-						<img src="http://cache.tita.com/Image/110006/f3cfa837b96d40988862a5a207193986.png" alt="" style="width: 100px; height: 31.25px; margin-top: 3.875px;">
-					</a>
-					<a class="italent_show_app_container" href="javascript:void(0)"><span class="italent_show_app"></span></a>
-					<span class="brand">
-					北森
-					</span>
-					<ul class="tt-ico">
-						<li class="ico-item mission">
-							<a href="javascript:void(0)" title="任务"></a>
-						</li>
-						<li class="ico-item schedule">
-							<a href="javascript:void(0)" title="日程"></a>
-						</li>
-						<li class="ico-item reminder">
-							<a href="javascript:void(0)" title="提醒"></a>
-						</li>
-						<li class="ico-item message">
-							<a href="javascript:void(0)" title="消息"></a>
-						</li>
-						<li class="logout_tthn">
-							<a href="javascript:void(0);" class="avatar_ltthn">
-								
-								<img src="http://cache.tita.com/Image/110006/5ae8d37f43444689b13a1c38a57cdc18_s.png" alt="李国明" width="30" height="30">
-								
-							</a>
-							<a href="javascript:void(0);" class="namewrap_tthn"><span class="name_tthn">李国明</span><b class="caret"></b></a>
-							<ul class="menu_ltthn">
-								<li class="profile_ltthn"><a href="#italent/home?appid=1&amp;apptype=1&amp;name=TalentProfile-record">个人主页</a></li>
-								<li class="archives_ltthn"><a href="#more/archives?appid=1&amp;apptype=1">简档编辑</a></li>
-								<li class="set_ltthn"><a href="/u/102161817/Setting/Avatar">个人设置</a></li>
-								<li><a href="/Account/Logout">退出登录</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="ow-left-menu">
-					<ul class="ow-menu-wrap">
-						<li class="menu-item appr active">
-							<a href="javascript:void(0)">
-								<span>审批</span>
-							</a>
+		var d = [{
+				"userid": "信息1",
+				"approvestatus": "1",
+				"approvetime": "2014-12-18 11:30",
+				"approvereuslt": "a1"
+			}, {
+				"userid": "信息2",
+				"approvestatus": "1",
+				"approvetime": "2014-12-18 11:30",
+				"approvereuslt": "a1"
+			}, {
+				"userid": "信息3",
+				"approvestatus": "1",
+				"approvetime": "2014-12-18 11:30",
+				"approvereuslt": "a1"
+			}, {
+				"userid": "信息3",
+				"approvestatus": "1",
+				"approvetime": "2014-12-18 11:30",
+				"approvereuslt": "a1"
+			}, {
+				"userid": "信息4",
+				"approvestatus": "0",
+				"approvetime": "",
+				"approvereuslt": ""
+			}];
 
-						</li>
-						<li class="menu-item board">
-							<a href="javascript:void(0)">
-								<span>报表</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="ow-contents">
-					<iframe src="http://sp.tita-inc.com/customapply/index" frameborder="no" style="width:%;"></iframe>
-				</div>
-			</div>
-		</body>
-	</html>
+		/*
+		也可以这样用
+		var item = owpgr({data:d});
+		item.appendTo(selector)	
+		*/
+
+		$("body").owpgr({data:d});
+	});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
