@@ -1,0 +1,117 @@
+.owpgr-wrapper{
+	font-size: 14px;
+	font-family: SimSun, Helvetica, Arial, sans-serif;
+}
+
+.owpgr-wrapper table{
+	table-layout: fixed;
+	width: 100%;
+}
+
+.owpgr-wrapper table td{overflow: hidden;}
+
+.r-owpgr-0 td,.r-owpgr-2 td{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.r-owpgr-2 td{
+	font-size: 12px;
+}
+
+td.approvetime span{
+	display: inline-block;
+	zoom:1;_display:inline;
+	width: 60px;
+}
+
+
+.r-owpgr-1 td{
+	height: 26px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.r-owpgr-1 td .owpgr-line{
+	height: 6px;
+	position: absolute;
+	top: 10px;
+}
+
+.r-owpgr-1 td .owpgr-ico{
+	 height: 21px;
+	 width: 21px;
+	 position: absolute;
+	 top: 2px;
+	 left: 50%;
+	 margin-left: -10px;
+	 background: url(/images/owpgr-bg.png) no-repeat;
+	 background-position: left -170px;
+
+}
+
+.owpgr-img-cell div.owpgr-line-l{
+	/*width: 100%;*/
+	background: url(/images/owpgr-bg.png) repeat-x;
+	background-position: left -59px;
+	left: 0;
+	right: 0;
+}
+
+.owpgr-img-cell-1st div.owpgr-line-l{
+	margin-left: 26px;
+}
+
+.owpgr-img-cell-1st div.owpgr-line-g-l{
+	width: 26px;
+	background: url(/images/owpgr-bg.png) no-repeat;
+	background-position: left -148px;
+}
+
+.owpgr-img-cell-1st.owpgr-img-cell-st-2 div.owpgr-line-g-l{
+	background-position: left -30px;
+}
+
+.owpgr-img-cell-last div.owpgr-line-g-r{
+	width: 26px;
+	background: url(/images/owpgr-bg.png) no-repeat;
+	background-position: left -118px;
+	right: 0px;
+}
+
+.owpgr-img-cell-last div.owpgr-line-l{
+	margin-right: 26px;
+}
+
+.owpgr-img-cell-st-0 div.owpgr-ico{
+	background-position: left -229px;
+}
+
+.owpgr-img-cell-st-2 div.owpgr-line-l{
+	background-position: left -89px;
+}
+
+.owpgr-img-cell-last.owpgr-img-cell-st-0 div.owpgr-line-r{
+	left: 50%;
+	right: 26px;
+	background: url(/images/owpgr-bg.png) repeat-x;
+	background-position: left -89px;
+}
+
+.owpgr-img-cell-last.owpgr-img-cell-st-2 div.owpgr-line-g-r ,.owpgr-img-cell-last.owpgr-img-cell-st-0 div.owpgr-line-g-r{
+	background-position: left 0px;
+}
+
+.owpgr-img-cell-last.owpgr-img-cell-st-2 div.owpgr-ico-arrow{
+	background-position: left -261px;
+	left: 10px;
+}
+
+.owpgr-img-cell-st-2 div.owpgr-ico{
+	background-position: left -199px;
+}
+
+.owpgr-img-cell.owpgr-img-cell-1st.owpgr-img-cell-last div.owpgr-ico-arrow{
+	display: none;
+}

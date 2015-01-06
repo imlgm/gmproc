@@ -1,0 +1,303 @@
+span.icon-light {
+    background: url(http://xfile3.tita.com/ux/tita-web-v4/release/app/images/src/common-s1e70899fe0.png) no-repeat
+}
+
+.ow-main{
+	background: #145c98;
+	min-width: 980px;
+}
+
+.header-wrap{
+	width: 100%;
+    min-width: 980px;
+    position: fixed;
+    top: 0;
+}
+
+.ow-header{
+    width: 100%;
+    min-width: 980px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 1px 3px 11px rgba(0,0,0,.2);
+    -moz-box-shadow: 1px 3px 11px rgba(0,0,0,.2);
+    box-shadow: 1px 3px 11px rgba(0,0,0,.2);
+    /**zoom:1;z-index: 1000;*/
+    position: relative;
+    overflow: hidden;
+}
+.ow-header-ico{
+	display: inline-block;
+	float: left;
+	margin: 0 9px 0 15px;
+}
+.ow-left-menu{
+	position: fixed;
+	top: 40px;
+	left: 0;
+	width: 70px;
+}
+.ow-contents{
+	margin-left: 70px;
+	margin-top: 40px;
+	background-color: white;
+	width: 100%;
+	min-height: 800px;
+}
+.italent_show_app_container {
+    float: left;
+    line-height: 0;
+    padding: 0 10px;
+    height: 39px
+}
+.brand {
+    min-width: 310px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 29px;
+    font-family: verdana,"Microsoft YaHei",SimHei,SimSun;
+    *font-family: "Microsoft YaHei",SimHei,SimSun;
+    float: left;
+    color: #8a8a8a;
+    border-left: 1px solid #ddd;
+    text-indent: 10px;
+    margin-left: 1px;
+    margin-top: 5px
+}
+.italent_show_app_container .italent_show_app {
+    width: 12px;
+    height: 6px;
+    margin-top: 16.5px;
+    padding-right: 0;
+    background-image: url(http://xfile3.tita.com/ux/tita-web-v4/release/app/images/icos_29.png);
+    background-position: -520px -200px;
+    display: inline-block
+}
+.italent_show_app_container:hover {
+    background-color: #eee
+}
+.tt-ico{
+	float: right;
+	overflow: hidden;
+	margin-right: 30px;
+	padding: 5px 0 0;
+}
+
+.ico-item{
+	float: left;
+	margin: 0 0 0 20px;
+	height: 35px;
+}
+
+.ico-item a {
+    display: inline-block;
+    width: 19px;
+    height: 25px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: middle;
+    height: 35px;
+    padding: 0;
+    background: url(http://xfile3.tita.com/ux/tita-web-v4/release/app/images/icos_29.png) no-repeat;
+}
+
+.mission a{
+	background-position: -360px -276px;
+}
+
+.mission a:hover{
+	background-position: -360px -316px
+}
+
+.schedule a{
+	background-position: -320px -274px;
+}
+
+.schedule a:hover{
+	background-position: -320px -314px;
+}
+
+.reminder a{
+	background-position: -240px -274px;
+}
+
+.reminder a:hover{
+	background-position: -240px -314px;
+}
+
+.message a{
+	background-position: -280px 7px;
+}
+
+.message a:hover{
+	background-position: -280px -33px;
+}
+
+.logout_tthn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 132px;
+    margin-left: 20px;
+}
+
+.logout_tthn .avatar_ltthn {
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.logout_tthn .avatar_ltthn img {
+    width: 30px;
+    height: 30px
+}
+
+.name_tthn {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #2d83cf;
+    display: inline-block;
+    height: 20px;
+    overflow: hidden;
+    word-break: keep-all
+}
+
+.caret {
+    
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px solid #000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    border-top-color: #2d83cf;
+    margin-left: 5px
+}
+
+.logout_tthn .menu_ltthn {
+    background-color: #fff;
+    border: 1px solid #c5c5c5;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 114px;
+    left: 15px;
+    top: 35px;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    padding: 2px 0
+}
+
+.ui-tooltip, .arrow:after {
+    background: black;
+  }
+
+ .ui-tooltip {
+    padding: 5px 10px;
+    color: white;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    font: 12px "Helvetica Neue", Sans-Serif;
+    /*text-transform: uppercase;*/
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -31px;
+    bottom: -10px;
+    z-index: 9999;
+  }
+  .arrow.top {
+    top: -12px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 50%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    -webkit-box-shadow: 6px 5px 9px -9px none;
+            box-shadow: 6px 5px 9px -9px none;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+.ow-menu-wrap{
+
+}
+
+.ow-menu-wrap .menu-item a{
+	display: block;
+	height: 70px;
+	width: 70px;
+	background: url(/images/ow-bg.png) no-repeat;
+	background-position: -33px 10px;
+	overflow: hidden;
+
+}
+.ow-menu-wrap .menu-item a span{
+	font-size: 12px;
+	display: block;
+	margin-top: 40px;
+	text-align: center;
+	color: #509fe5;
+}
+
+.ow-menu-wrap .sub-active a span{
+	/*background-color: #084171;*/
+	color: white;
+}
+
+.ow-menu-wrap .sub-active a{
+	background-position-x:17px;
+}
+
+.ow-menu-wrap .active a{
+	background-color: #084171;
+	background-position-x: 17px;
+}
+
+
+.ow-menu-wrap .active a span{
+	background-color: #084171;
+	color: white;
+}
+
+.ow-menu-wrap .menu-item.board a{
+	background-position-y:-62px;
+}
+
+.ui-tooltip{
+	z-index: 1000;
+}
+
+@media (min-width: 1380px) {
+    .ow-header {
+        border: 0 none
+    }
+}
